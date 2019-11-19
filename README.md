@@ -9,8 +9,13 @@ $python
 (ver la versión) 
 *Si es python 2
 escribir
+
 >>> from Tkinter import * (ojo con la t en mayuscula)
+
 >>> ventana = tk()
+
 (aparecera la ventana en GUI)
+
 >>> exit()
+
 >>> clear 
