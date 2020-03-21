@@ -6,8 +6,8 @@ print("3. Multiplicacion");
 print("4. Division");
 print("5. Salir");
 choice = int(input("Entre su opción: "));
-if choice>=1 and choice<=4):
-  printf("Ingrese dos números: ");
+if (choice>=1 and choice<=4):
+  print("Ingrese dos números: ");
   num1 = int(input());
   num2 = int(input());
   if choice == 1:
@@ -19,10 +19,10 @@ if choice>=1 and choice<=4):
   elif choice == 3:
       res = num1 * num2;
       print("Result = ", res);
-  else:
+  elif choice == 4:
       res = num1 / num2;
       print("Result = ", res);
-  elif choise == 5:
+  elif choice == 5:
       exit();
   else:
       print("Wrong input..!!");
